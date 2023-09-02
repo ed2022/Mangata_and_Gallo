@@ -1,0 +1,79 @@
+/* Applying "reset" styling to everything so that it is more responsive */
+*{
+    padding: 0px; 
+    margin : 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up the full viewport height */
+    margin: 10px;
+}
+
+header, nav, main, footer {
+    width: 100%;
+    padding: 40px; 
+}
+
+/* ______________________________HEADER____________________________*/
+/* Head and related children styling */
+header {
+    background-color:white;
+    color:  #333;
+    display: flex;
+    justify-content: center;
+}
+.blackLogo{
+    width: 50vh;
+}
+
+/* ______________________________NAV______________________________*/
+/* Nav and related children styling */
+nav{
+    background-color: cadetblue;
+    height: 2px;
+}
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+/* ______________________________MAIN______________________________*/
+/* Main and related children styling */
+main {
+    flex-grow: 1; /* Make the main content area expand to fill available space */
+}
+.promotion {
+    border:  20px solid pink;
+    font-size: x-large;
+    text-align: center;
+    padding: 50px;
+    display: block;
+    justify-content: center;
+
+}
+.productSection{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* ____________________________FOOTER______________________________*/
+/* Footer and related children styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

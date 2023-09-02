@@ -1,0 +1,67 @@
+/* . {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    animation: animation-a 2s linear infinite alternate
+}  */
+
+/* _______________________________BODY_____________________________*/
+body{
+    padding: 0; 
+    margin: 0;
+}
+
+/*_______________________________HEADER____________________________*/
+header{
+    padding: 7vh; 
+    display: flex;
+    justify-content: center;
+}
+
+/* ________________________________NAV_____________________________*/
+nav{
+    padding: 1vh; 
+    background-color: gray;
+    margin-top: 2px;
+}
+.navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+a {
+    color: black;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+/* _______________________________MAIN_____________________________*/
+
+main{
+    background-color:rgba(7, 7, 97, 0.753);
+}
+.blueEarringsImg{
+    width: 100vw;
+    height: 80vh;
+}
+.productSection{
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.prod {
+    margin-top: 0;
+    border: 2px solid black;
+    display: block;
+    justify-content: center;
+    background-color: white;
+}
+
+/* _____________________________FOOTER_____________________________*/
+footer{
+    padding: 7vh; 
+    display: flex;
+    justify-content: space-around;   
+}
