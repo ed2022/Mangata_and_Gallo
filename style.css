@@ -1,67 +1,136 @@
-/* . {
-    width: 100px;
-    height: 100px;
-    background-color: pink;
-    animation: animation-a 2s linear infinite alternate
-}  */
-
-/* _______________________________BODY_____________________________*/
+/* _________________DEFAULT STYLING_______________*/
+*{
+    box-sizing: border-box;
+}
 body{
-    padding: 0; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
     margin: 0;
+    display: grid;
+    grid-template-columns: auto;
+}
+header,nav{
+    padding: 16px;
+    /* This will only align the text */
+    text-align: center;
+}
+footer {
+    padding: 16px;
 }
 
-/*_______________________________HEADER____________________________*/
-header{
-    padding: 7vh; 
+/* _________________HEADER STYLING_______________*/
+header {
+    background-color: black;
+    grid-template-rows: 60px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
-/* ________________________________NAV_____________________________*/
-nav{
-    padding: 1vh; 
-    background-color: gray;
-    margin-top: 2px;
+/* _________________NAV STYLING_______________*/
+nav {
+    font-size: x-large;
+    background-color: #083734;
+    grid-template-rows: 50px;
 }
-.navList {
+.navList{
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-size: 2em;
+    align-items: center;
 }
-a {
-    color: black;
-    cursor: pointer;
-    text-decoration: none; 
+.navItem {
+    margin: 0 10px;
+    text-decoration: none;
+}
+.navItem a{
+    text-decoration: none;
+    color: white;
+}
+.navItem a:hover{
+    color: #FC8A71;
 }
 
-/* _______________________________MAIN_____________________________*/
-
+/* _________________MAIN STYLING_______________*/
+/* Home Page */
 main{
-    background-color:rgba(7, 7, 97, 0.753);
+    background-color: #045853;
 }
-.blueEarringsImg{
-    width: 100vw;
-    height: 80vh;
+.promotion img{
+    width: 100%;
+    height: 600px;
 }
-.productSection{
-    margin-bottom: 0;
-    display: flex;
-    justify-content: space-around;
+.productSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px; 
 }
-
-.prod {
-    margin-top: 0;
-    border: 2px solid black;
-    display: block;
-    justify-content: center;
+.prod{
     background-color: white;
+    padding: 5px 20px; 
+    border-radius: 15px;
+}
+.prod:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.productSection img {
+    width:100%; 
+}
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    background-color: #045853;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    align-items: end;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #FC8A71;
+    color: black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* _____________________________FOOTER_____________________________*/
-footer{
-    padding: 7vh; 
-    display: flex;
-    justify-content: space-around;   
+/* About Page */
+article{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
 }
+.mariannaImg {
+    width: 500px;
+    border-radius: 800px;
+    align-items: center;
+    height: 100%;
+}
+.about {
+    padding: 20px; 
+    padding-top: 30px;
+    color: white;
+    align-items: center;
+    height: 100%;
+}
+.about p {
+    font-size: 20px;
+    font-family: sans-serif; 
+}
+
+/* _________________FOOTER STYLING_______________*/
+
+footer{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
