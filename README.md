@@ -10,6 +10,9 @@ Mariana is the owner and the lead designer of Mangata and Gallo. After graduatin
 - [HTML]
 - [CSS]
 
+## WebPage
+![Jewelry Online Front](source/Page1.png)
+
 
 ## Credits
 This project was made possible through the collaborative efforts of the following individuals:
@@ -18,12 +21,12 @@ This project was made possible through the collaborative efforts of the followin
 - Project Idea: [Coursera](https://www.coursera.org/learn/html-and-css-in-depth/)
 
 ## Color Scheme:
--[Lunch City Studio](https://lunchcitystudio.com/products/austin-color-palette-print)
--[Austin Monthly](https://www.austinmonthly.com/the-color-palettes-of-austin-and-the-texas-hill-country/)
+- [Lunch City Studio](https://lunchcitystudio.com/products/austin-color-palette-print)
+- [Austin Monthly](https://www.austinmonthly.com/the-color-palettes-of-austin-and-the-texas-hill-country/)
 
 ## Images/Merchandise
--[Google](www.google.com)
--[Jewelry Point](https://www.jewelrypoint.com/colored-diamond-rings/)
+- [Google](www.google.com)
+- [Jewelry Point](https://www.jewelrypoint.com/colored-diamond-rings/)
 
 ## Links 
 - [Github Repo](https://ed2022.github.io/Mangata_and_Gallo/) 
