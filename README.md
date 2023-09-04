@@ -13,7 +13,6 @@ Mariana is the owner and the lead designer of Mangata and Gallo. After graduatin
 ## WebPage
 ![Jewelry Online Front](source/Page1.png)
 
-
 ## Credits
 This project was made possible through the collaborative efforts of the following individuals:
 
